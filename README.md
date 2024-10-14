@@ -177,7 +177,7 @@ Send a pull request if you have written a new feature or fixed an issue .Please 
 
 ## License
 ```
-Copyright 2015 Sanath Kumar Pasumarthy
+Copyright 2024 Prince Solomon
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
