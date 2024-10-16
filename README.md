@@ -1,4 +1,4 @@
-# StatusOK
+### StatusOK
 
 Monitor your Website and APIs from your computer.Get notified through Slack or E-mail when your server is down or response time is more than expected.
 
@@ -49,7 +49,7 @@ $ jobs
 $ kill %jobnumber
 ```
 
-## Complete Version using InfluxDb
+### Complete Version using InfluxDb
 
 ![alt text](https://github.com/sanathp/StatusOK/raw/master/screenshots/graphana.png "Graphana Screenshot")
 
@@ -112,13 +112,13 @@ To run the app
 $ ./statusok --config config.json &
 ```
 
-## Database
+### Database
 
 Save Requests response time information and error information to your database by adding database details to config file. Currently only Influxdb 0.9.3+ is supported.
 
 You can also add data to your own database.[view details](https://github.com/sanathp/statusok/blob/master/Config.md#save-data-to-any-other-database)
 
-## Notifications
+### Notifications
 
 Notifications will be triggered when mean response time is below given response time for a request or when an error is occured . Currently the below clients are supported to receive notifications.For more information on setup [click here](https://github.com/sanathp/statusok/blob/master/Config.md#notifications)
 
@@ -130,7 +130,7 @@ Notifications will be triggered when mean response time is below given response 
 
 Adding support to other clients is simple.[view details](https://github.com/sanathp/statusok/blob/master/Config.md#write-your-own-notification-client)
 
-## Running with plain Docker
+### Running with plain Docker
 
 ```
 docker run -d -v /path/to/config/folder:/config sanathp/statusok
@@ -175,7 +175,7 @@ docker-compose up
 Contributions are welcomed and greatly appreciated. Create an issue if you find bugs.
 Send a pull request if you have written a new feature or fixed an issue .Please make sure to write test cases.
 
-## License
+### License..
 ```
 Copyright 2024 Prince Solomon
 
